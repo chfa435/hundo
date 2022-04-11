@@ -4,6 +4,8 @@
     --cf-light-color: #dfe3e4;
     --cf-primary-color: #001e43;
     --cf-secondary-color: #ff993b;
+    --cf-danger-color: #EB1E33;
+
 }
 
 body{
@@ -51,6 +53,15 @@ main>.container {
 }
 
 .messageStyle{
-    font-size: 1rem;
+    font-size: 1rem; 
+}
+
+.boldItem{
+    font-weight: bolder;
+}
+
+.dangerItem{
+    color: var(--cf-danger-color);
     font-weight: bold;
+    font-size: 2rem;
 }
